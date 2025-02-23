@@ -28,6 +28,7 @@ Na aba do driver, você irá configurar as variáveis que sua ESP32 irá ler e c
 ![Image](https://github.com/user-attachments/assets/18988c85-0277-4376-b51a-06ef650a4204)
 
 Aqui está uma configuração de escala
+
 ![Image](https://github.com/user-attachments/assets/b5b0c498-b202-43ef-b4dc-3a3c72f380fc)
 
 Após todos esses passos, inicie seu código no VSCODE, utilizando o PlatformIO e copie e cole seu IP na aba Ethernet do driver. Após isso, dê um build e run no seu código.
