@@ -1,6 +1,7 @@
-#define BLYNK_TEMPLATE_ID "TMPL2RA2QhYKK"
-#define BLYNK_TEMPLATE_NAME "Projeto Redes"
-#define BLYNK_AUTH_TOKEN "x7NoSZmMRsjVKpiYFb8_UGVSBVhVs16R"
+//#define BLYNK_TEMPLATE_ID "ID Do template"
+//#define BLYNK_TEMPLATE_NAME "nome do template blynk"
+//#define BLYNK_AUTH_TOKEN "Token blink"
+//Caso queira usar o BLYNK para um monitoramento pelo celular, descomente esta parte e adicione suas credenciais
 
 #include <WiFi.h>
 #include <ModbusIP_ESP8266.h>
@@ -11,8 +12,8 @@
 
 unsigned long previousMillis = 0;
 const long interval = 5000;
-const char* ssid = "arabazes1";
-const char* password = "valduga7591";
+const char* ssid = "SUA REDE";
+const char* password = "SUA SENHA DE REDE";
 
 // Configuração do ModbusTCP
 ModbusIP mb;
@@ -34,7 +35,7 @@ DallasTemperature sensors(&oneWire);
 
 // Configuração do buzzer passivo
 #define PIN_BUZZER 41
-#define BUZZER_CHANNEL 0 // Canal PWM para o buzzer
+#define BUZZER_CHANNEL 0 //Canal PWM para o buzzer
 bool buzzerAtivado = false; // Estado do alarme
 bool reconhecimentoFeito = false; // Estado do reconhecimento
 
