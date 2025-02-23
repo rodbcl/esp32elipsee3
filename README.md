@@ -35,4 +35,11 @@ Após todos esses passos, inicie seu código no VSCODE, utilizando o PlatformIO 
 
 Com o código "rodando", abre o ElipseE3 e inicie o driver no ícone de play verde na aba Driver, se tudo estiver funcionando os nomes das variávies ficaram AZUIS.
 Ao rodar seu sistema supervisório, o programa vai pedir para desativar os drivers e você clicará em SIM, manter os drivers ativos com o ElipseE3 rodando causará instabilidade na aquisição de dados via MODBUS.
+
+OBS: Note que no código a aquisição de temperatura do sensor DS18B20 está dentro do loop, optei por fazer dessa forma para obter as informações em tempo real, porém você pode modificar.
+
+
+Espero ter ajudado!
+
+
 //RodBCL
